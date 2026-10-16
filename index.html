@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="जॉनी ट्रैक्टर्स, महावतपुर, शामली। खेत की जुताई, रोटावेटर और अन्य कृषि कार्य के लिए बुकिंग करें।"
+  >
+
+  <meta name="theme-color" content="#205a32">
+
+  <title>जॉनी ट्रैक्टर्स | महावतपुर, शामली</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ऊपर का मेन्यू -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="#home" class="brand" aria-label="जॉनी ट्रैक्टर्स होम">
+        <span class="brand-icon" aria-hidden="true">🚜</span>
+        <span>
+          <strong>जॉनी ट्रैक्टर्स</strong>
+          <small>महावतपुर, शामली</small>
+        </span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="मेन्यू खोलें"
+        aria-controls="navLinks"
+        aria-expanded="false"
+      >
+        ☰ मेन्यू
+      </button>
+
+      <nav class="nav-links" id="navLinks" aria-label="मुख्य मेन्यू">
+        <a href="#home">होम</a>
+        <a href="#services">हमारे काम</a>
+        <a href="#booking">बुकिंग करें</a>
+        <a href="#contact">संपर्क करें</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- मुख्य हिस्सा -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+
+        <p class="welcome-label">🌾 किसानों की सेवा में</p>
+
+        <h1>
+          खेती का काम अब होगा आसान!
+        </h1>
+
+        <p class="hero-text">
+          खेत की जुताई, रोटावेटर और दूसरे कृषि कार्य के लिए
+          जॉनी ट्रैक्टर्स से संपर्क करें।
+        </p>
+
+        <p class="location-line">
+          📍 महावतपुर, शामली, उत्तर प्रदेश
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#booking" class="btn btn-primary">
+            🚜 ट्रैक्टर बुक करें
+          </a>
+
+          <a href="#services" class="btn btn-secondary">
+            हमारे काम देखें
+          </a>
+        </div>
+
+        <div class="trust-points">
+          <span>✓ आसान बुकिंग</span>
+          <span>✓ फोन और WhatsApp</span>
+          <span>✓ पहले रेट पूछें</span>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- सेवाएँ -->
+    <section class="section" id="services">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="section-label">हमारी सेवाएँ</p>
+          <h2>आपको कौन-सा काम करवाना है?</h2>
+          <p>
+            अपने खेत के काम को चुनें। फिर बुकिंग के लिए आगे बढ़ें।
+          </p>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">🌱</div>
+            <h3>खेत की जुताई</h3>
+            <p>
+              खेत की जुताई और मिट्टी तैयार करवाने के लिए।
+            </p>
+            <button
+              type="button"
+              class="btn btn-card select-service"
+              data-service="खेत की जुताई"
+            >
+              यह काम चुनें
+            </button>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">🚜</div>
+            <h3>रोटावेटर</h3>
+            <p>
+              रोटावेटर से खेत की मिट्टी तैयार करवाने के लिए।
+            </p>
+            <button
+              type="button"
+              class="btn btn-card select-service"
+              data-service="रोटावेटर"
+            >
+              यह काम चुनें
+            </button>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">🌾</div>
+            <h3>खेती की तैयारी</h3>
+            <p>
+              फसल बोने से पहले खेत की तैयारी के लिए।
+            </p>
+            <button
+              type="button"
+              class="btn btn-card select-service"
+              data-service="खेती की तैयारी"
+            >
+              यह काम चुनें
+            </button>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">🧑‍🌾</div>
+            <h3>दूसरा कृषि कार्य</h3>
+            <p>
+              कोई दूसरा ट्रैक्टर वाला काम हो तो हमसे पूछें।
+            </p>
+            <button
+              type="button"
+              class="btn btn-card select-service"
+              data-service="दूसरा कृषि कार्य"
+            >
+              यह काम चुनें
+            </button>
+          </article>
+
+        </div>
+
+        <p class="price-note">
+          💰 काम का रेट जानने के लिए फोन या WhatsApp पर पूछें।
+          रेट काम और खेत की स्थिति के अनुसार तय होगा।
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- बुकिंग फॉर्म -->
+    <section class="section booking-section" id="booking">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="section-label">आसान बुकिंग</p>
+          <h2>अपने खेत के काम की जानकारी दें</h2>
+          <p>
+            नीचे जानकारी भरें। फिर फोन या WhatsApp से बुकिंग भेजें।
+          </p>
+        </div>
+
+        <form id="bookingForm" class="booking-form">
+
+          <div class="form-group">
+            <label for="customerName">आपका नाम *</label>
+            <input
+              type="text"
+              id="customerName"
+              name="customerName"
+              placeholder="जैसे: राम सिंह"
+              autocomplete="name"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="customerPhone">मोबाइल नंबर *</label>
+            <input
+              type="tel"
+              id="customerPhone"
+              name="customerPhone"
+              placeholder="अपना 10 अंकों का नंबर लिखें"
+              inputmode="numeric"
+              autocomplete="tel"
+              pattern="[6-9][0-9]{9}"
+              maxlength="10"
+              title="कृपया सही 10 अंकों का भारतीय मोबाइल नंबर लिखें"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="village">गाँव और खेत की जगह *</label>
+            <input
+              type="text"
+              id="village"
+              name="village"
+              placeholder="गाँव का नाम और खेत की जगह"
+              autocomplete="address-level2"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="service">कौन-सा काम करवाना है? *</label>
+            <select id="service" name="service" required>
+              <option value="">अपना काम चुनें</option>
+              <option value="खेत की जुताई">खेत की जुताई</option>
+              <option value="रोटावेटर">रोटावेटर</option>
+              <option value="खेती की तैयारी">खेती की तैयारी</option>
+              <option value="दूसरा कृषि कार्य">दूसरा कृषि कार्य</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="bookingDate">किस तारीख को काम करवाना है?</label>
+            <input
+              type="date"
+              id="bookingDate"
+              name="bookingDate"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="landSize">खेत कितने बीघा का है? (वैकल्पिक)</label>
+            <input
+              type="text"
+              id="landSize"
+              name="landSize"
+              placeholder="जैसे: 3 बीघा"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="message">कोई और जानकारी? (वैकल्पिक)</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="3"
+              placeholder="जैसे: खेत तक पहुँचने का रास्ता"
+            ></textarea>
+          </div>
+
+          <p class="form-note">
+            ध्यान दें: यह जानकारी भेजने की तैयारी है।
+            बुकिंग पक्की होने के लिए जॉनी ट्रैक्टर्स से पुष्टि लें।
+          </p>
+
+          <button type="submit" class="btn btn-primary btn-full">
+            🟢 WhatsApp पर बुकिंग भेजें
+          </button>
+
+          <p id="formMessage" class="form-message" role="status"
+             aria-live="polite"></p>
+
+          <p class="or-text">या फिर</p>
+
+          <a href="#contact" class="btn btn-secondary btn-full">
+            📞 फोन करके बुकिंग करें
+          </a>
+
+        </form>
+
+      </div>
+    </section>
+
+
+    <!-- हमारे बारे में -->
+    <section class="section" id="about">
+      <div class="container about-content">
+
+        <div class="about-icon" aria-hidden="true">🌾🚜</div>
+
+        <div>
+          <p class="section-label">हमारे बारे में</p>
+          <h2>आपके खेत के काम में मदद</h2>
+          <p>
+            जॉनी ट्रैक्टर्स, महावतपुर, शामली में खेती से जुड़े
+            ट्रैक्टर कार्यों के लिए संपर्क करें।
+          </p>
+          <p>
+            काम, तारीख और रेट की जानकारी फोन पर लेकर
+            अपनी बुकिंग की पुष्टि करें।
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- संपर्क -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-content">
+
+        <p class="section-label">हमसे संपर्क करें</p>
+        <h2>ट्रैक्टर चाहिए? बात करें!</h2>
+
+        <p>
+          फोन और WhatsApp बुकिंग के लिए नीचे दिए गए बटन इस्तेमाल करें।
+        </p>
+
+        <!--
+          जरूरी:
+          नीचे दिए गए PHONE_NUMBER को अपने असली मोबाइल नंबर से बदलें।
+          देश का कोड 91 सहित नंबर लिखें, लेकिन + या spaces न लगाएँ।
+          उदाहरण: 919876543210
+        -->
+
+        <a
+          href="tel:PHONE_NUMBER"
+          class="btn btn-primary btn-full"
+          id="callButton"
+        >
+          📞 अभी फोन करें
+        </a>
+
+        <a
+          href="https://wa.me/PHONE_NUMBER"
+          class="btn btn-whatsapp btn-full"
+          id="whatsappButton"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          🟢 WhatsApp पर बात करें
+        </a>
+
+        <p class="contact-location">
+          📍 महावतपुर, शामली, उत्तर प्रदेश
+        </p>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- नीचे का हिस्सा -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        © <span id="currentYear"></span> जॉनी ट्रैक्टर्स
+      </p>
+      <p>किसानों की सेवा में 🚜</p>
+    </div>
+  </footer>
+
+</body>
+</html>
